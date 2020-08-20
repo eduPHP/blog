@@ -5,16 +5,16 @@
         <span class="mb-3 text-2xl h-12">Blog Admin</span>
       </router-link>
       <router-link to="/admin/pages">Pages</router-link>
-      <router-link to="/admin/Posts">Posts</router-link>
+      <router-link to="/admin/posts">Posts</router-link>
     </div>
-    <div class="flex-1 flex flex-col">
+    <div class="max-w-2xl w-full flex flex-col">
       <div class="flex justify-between items-center h-12">
         <ul class="breadcrumb text-gray-600 uppercase text-xs flex">
-          <li v-for="crumb in crumbs">
+          <li v-if="crumbs.length > 1" v-for="crumb in crumbs">
             <template v-if="crumb.to !== $route.fullPath">
               <router-link class="text-blue-700" :to="crumb.to" exact>{{ crumb.text }}</router-link>
             </template>
-            <span v-else>{{ crumb.text }}</span>
+            <span v-else>{{ crumb.name }}</span>
           </li>
         </ul>
         <div>User Menu</div>
@@ -30,20 +30,21 @@ export default {
   name: 'Admin',
   metaInfo: {
     // if no subcomponents specify a metaInfo.title, this title will be used
-    title: `Admin Eduardo's Blog`,
+    title: `Blog Admin`,
     // all titles will be injected into this template
-    titleTemplate: `%s | Admin Eduardo's Blog`
+    titleTemplate: `%s | Blog Admin`
   },
   computed: {
     crumbs() {
       let pathArray = this.$route.path.split("/")
+      let to = ''
       pathArray.shift()
       return pathArray.reduce((breadcrumbArray, path, idx) => {
+        to += `/${path}`
         breadcrumbArray.push({
           path: path,
-          to: breadcrumbArray[idx - 1]
-              ? "/" + breadcrumbArray[idx - 1].path + "/" + path
-              : "/" + path,
+          to,
+          name: this.$route.name,
           text: path,
         });
         return breadcrumbArray;

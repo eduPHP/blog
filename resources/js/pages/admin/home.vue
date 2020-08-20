@@ -12,11 +12,11 @@ export default {
   name: "home",
   computed: {
     ...mapState({
-      count: state => state.admin.count
+      count: state => state.count
     }),
   },
   methods: {
-    ...mapActions({increment: 'admin/incrementCount'})
+    ...mapActions({increment: 'incrementCount'})
   }
 }
 </script>

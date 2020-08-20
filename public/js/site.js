@@ -6273,26 +6273,14 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./resources/less/app.less":
-/*!*********************************!*\
-  !*** ./resources/less/app.less ***!
-  \*********************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-// removed by extract-text-webpack-plugin
-
-/***/ }),
-
 /***/ 0:
-/*!**************************************************************!*\
-  !*** multi ./resources/js/site.js ./resources/less/app.less ***!
-  \**************************************************************/
+/*!************************************!*\
+  !*** multi ./resources/js/site.js ***!
+  \************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /home/eduardo/code/blog/resources/js/site.js */"./resources/js/site.js");
-module.exports = __webpack_require__(/*! /home/eduardo/code/blog/resources/less/app.less */"./resources/less/app.less");
+module.exports = __webpack_require__(/*! /home/eduardo/code/blog/resources/js/site.js */"./resources/js/site.js");
 
 
 /***/ })

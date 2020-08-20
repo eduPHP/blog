@@ -9,14 +9,23 @@ export default {
     },
     {
       name: 'Pages',
-      breadcrumb: 'Admin > Pages',
       path: '/admin/pages',
-      component: () => import(/* webpackChunkName: "js/pages/admin.pages" */'../pages/admin/pages/index')
+      component: () => import(/* webpackChunkName: "js/pages/admin.pages" */'../pages/admin/pages/index'),
+    },
+    {
+      name: 'Create Page',
+      path: '/admin/pages/create',
+      component: () => import(/* webpackChunkName: "js/pages/admin.pages" */'../pages/admin/pages/create')
     },
     {
       name: 'Posts',
       path: '/admin/posts',
-      component: () => import(/* webpackChunkName: "js/pages/admin.posts" */'../pages/admin/posts/index')
+      component: () => import(/* webpackChunkName: "js/pages/admin.posts" */'../pages/admin/posts/index'),
+    },
+    {
+      name: 'Create Post',
+      path: '/admin/posts/create',
+      component: () => import(/* webpackChunkName: "js/pages/admin.posts" */'../pages/admin/posts/create')
     },
 
     {

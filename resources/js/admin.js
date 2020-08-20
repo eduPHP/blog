@@ -9,6 +9,7 @@ import Admin from './Admin'
 
 Vue.use(Vuex)
 Vue.use(VueRouter)
+window.Vue = Vue
 
 new Vue({
   el: '#app',

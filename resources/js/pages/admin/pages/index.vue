@@ -1,6 +1,9 @@
 <template>
   <div>
-    <h1 class="text-2xl font-bold ">Pages</h1>
+    <div class="flex justify-between">
+      <h1 class="text-2xl font-bold ">Pages</h1>
+      <router-link to="/admin/pages/create">Add</router-link>
+    </div>
     <div class="flex-1 max-w-3xl">
       <div>
         <div class="flex flex-col">

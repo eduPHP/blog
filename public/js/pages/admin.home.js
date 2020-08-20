@@ -28,11 +28,11 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
   name: "home",
   computed: _objectSpread({}, Object(vuex__WEBPACK_IMPORTED_MODULE_0__["mapState"])({
     count: function count(state) {
-      return state.admin.count;
+      return state.count;
     }
   })),
   methods: _objectSpread({}, Object(vuex__WEBPACK_IMPORTED_MODULE_0__["mapActions"])({
-    increment: 'admin/incrementCount'
+    increment: 'incrementCount'
   }))
 });
 

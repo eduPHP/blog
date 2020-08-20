@@ -1,14 +1,14 @@
 {
-    "/js/admin.js": "/js/admin.js?id=d1229b7567e8a0da9884",
-    "/css/main.css": "/css/main.css?id=d41d8cd98f00b204e980",
-    "/js/manifest.js": "/js/manifest.js?id=6470915f7293898c4cf2",
-    "/js/site.js": "/js/site.js?id=324c7b5dca2f60065f52",
+    "/js/admin.js": "/js/admin.js?id=15ff8d14d1fe1466dab1",
+    "/js/manifest.js": "/js/manifest.js?id=d32a4526e9d5f2125093",
+    "/js/site.js": "/js/site.js?id=52ed2b5d81910e8d2c7f",
     "/js/vendor.js": "/js/vendor.js?id=348ab6ae462029e6a187",
     "/js/pages/404.js": "/js/pages/404.js?id=65049ca520604790608a",
     "/js/pages/about.js": "/js/pages/about.js?id=869e5d0050e241ea4a39",
-    "/js/pages/admin.home.js": "/js/pages/admin.home.js?id=855b646576645b6fb71f",
-    "/js/pages/admin.pages.js": "/js/pages/admin.pages.js?id=efab4743fda0a204470c",
-    "/js/pages/admin.posts.js": "/js/pages/admin.posts.js?id=16f501cb2f77eaecd086",
+    "/js/pages/admin.home.js": "/js/pages/admin.home.js?id=ac0029c9d6b5a8bd837a",
+    "/js/pages/admin.pages.js": "/js/pages/admin.pages.js?id=4f80e0810670791dbb2a",
+    "/js/pages/admin.posts.js": "/js/pages/admin.posts.js?id=36c2562965f48927cf6a",
     "/js/pages/article.js": "/js/pages/article.js?id=a63f4d27295151b9268c",
-    "/js/pages/home.js": "/js/pages/home.js?id=9ec2c84e0729db2c322d"
+    "/js/pages/home.js": "/js/pages/home.js?id=9ec2c84e0729db2c322d",
+    "/vendors~js/pages/admin.pages.js": "/vendors~js/pages/admin.pages.js?id=5a668d3492f17a4bbb22"
 }
